@@ -1,10 +1,10 @@
-package com.steve.api;
+package com.steve.accountms;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class PaymentServicesApplicationTests {
+class AccountMsApplicationTests {
 
     @Test
     void contextLoads() {

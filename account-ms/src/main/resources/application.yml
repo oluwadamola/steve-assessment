@@ -1,0 +1,17 @@
+server:
+  port: 9291
+spring:
+  h2:
+    console:
+      enabled: true
+  application:
+    name:ACCOUNT-MS
+
+eureka:
+  client:
+    register-with-eureka: true
+    fetch-registry: true
+    service-url:
+      defaultZone:http://localhost/eureka/
+  instance:
+    host:localhost
